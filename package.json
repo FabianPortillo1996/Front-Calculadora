@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Guia javascript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianPortillo1996/JavaScript.git"
+  },
+  "author": "Fabian Portillo Moreno",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/FabianPortillo1996/JavaScript/issues"
+  },
+  "homepage": "https://github.com/FabianPortillo1996/JavaScript#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}

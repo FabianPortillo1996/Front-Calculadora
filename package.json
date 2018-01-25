@@ -18,6 +18,8 @@
   "homepage": "https://github.com/FabianPortillo1996/JavaScript#readme",
   "dependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-sass": "^3.1.0"
   }
 }

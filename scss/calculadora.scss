@@ -1,3 +1,8 @@
+sup {
+    vertical-align: bottom;
+    font-size: smaller;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -6,7 +11,7 @@
 
 .contenedor {
     display: grid;
-    grid-template-rows: 14vh 1fr;
+    grid-template-rows: 30% 70%;
 }
 
 .calculadora {
@@ -26,26 +31,34 @@
     justify-content: center;
     align-items: center;
     padding: 0.5em;
-    color: #fff;
     font-size: 1.1em;
-    text-transform: uppercase;
     cursor: pointer;
     &:last-child {
         grid-column: span 3;
         background-color: #FD7400;
+    }
+    &:nth-child(16) {
+        background: #009DCF;
     }
 }
 
 .pantalla,
 .boton {
     background-color: #233040;
+    color: #fff;
 }
-
+.pantalla {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    margin-bottom: 1em;
+    min-height: 12vh;
+    font-size: 1.2em;
+    word-spacing: 0.1em;
+}
 
 .funcion {
     background-color: #364B63;
 }
 
-.pantalla {
-    height: 12vh;
-}
